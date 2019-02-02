@@ -8,7 +8,7 @@ int main() {
 	
 	cout<<"Printing my vector.....\n";
 	//Using for loop to print a vector
-	for(int i=0; i<myVector.size(); i++){
+	for(auto i=0u; i < myVector.size(); i++){
 		cout<<myVector[i];
 
 	}
